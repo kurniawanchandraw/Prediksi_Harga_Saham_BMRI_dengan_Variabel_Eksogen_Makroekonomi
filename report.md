@@ -115,9 +115,7 @@ Untuk mengatasi outlier yang sering muncul di data keuangan, digunakan *Robust S
 
 Dirumuskan sebagai berikut.
 
-$$
-X_{\text{scaled}} = \frac{X - \text{median}(X)}{\text{IQR}(X)},
-$$
+$$X_{\text{scaled}} = \frac{X - \text{median}(X)}{\text{IQR}(X)},$$
 
 dengan:
 
@@ -133,9 +131,7 @@ Fitur *lag* dibuat untuk variabel eksogen seperti IHSG, inflasi, suku bunga, dan
 
 *Input* data diatur dalam bentuk *sequence* dengan panjang 28 hari (*sequence length* = 28). Jadi, setiap data *input* merupakan *array* tiga dimensi dengan bentuk:
 
-$$
-(\text{batch size}, \text{sequence length}, \text{jumlah fitur})
-$$
+$$(\text{batch size}, \text{sequence length}, \text{jumlah fitur})$$
 
 *Output* target adalah harga saham BMRI pada hari berikutnya setelah *sequence input*.
 
@@ -229,9 +225,7 @@ Untuk mengevaluasi performa model dalam memprediksi harga saham BMRI, digunakan 
 
 * **Mean Squared Error (MSE)**: Mengukur rata-rata kuadrat selisih antara nilai prediksi dan nilai aktual. Metrik ini sensitif terhadap outlier, sehingga memberikan penalti lebih besar pada kesalahan yang besar.
 
-  $$
-  \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2,
-  $$
+  $$\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2,$$
 
   dengan:
 
@@ -241,27 +235,19 @@ Untuk mengevaluasi performa model dalam memprediksi harga saham BMRI, digunakan 
 
 * **Root Mean Squared Error (RMSE)**: Merupakan akar kuadrat dari MSE, memberikan gambaran kesalahan dalam satuan yang sama dengan data asli.
 
-  $$
-  \text{RMSE} = \sqrt{\text{MSE}}.
-  $$
+  $$\text{RMSE} = \sqrt{\text{MSE}}.$$
 
 * **Mean Absolute Error (MAE)**: Mengukur rata-rata selisih absolut antara nilai prediksi dan nilai aktual. Metrik ini memberikan gambaran kesalahan rata-rata tanpa mempertimbangkan arah kesalahan.
 
-  $$
-  \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|.
-  $$
+  $$\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|.$$
 
 * **Mean Absolute Percentage Error (MAPE)**: Mengukur rata-rata persentase selisih absolut antara nilai prediksi dan nilai aktual. Metrik ini memberikan gambaran kesalahan relatif terhadap nilai aktual.
 
-  $$
-  \text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100\%.
-  $$
+  $$\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100\%.$$
 
 * **R-squared (R²)**: Mengukur proporsi variansi dalam data yang dapat dijelaskan oleh model. Nilai R² berkisar antara 0 hingga 1, dengan nilai yang lebih tinggi menunjukkan model yang lebih baik.
 
-  $$
-  R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2},
-  $$
+  $$R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2},$$
 
   dengan:
 
