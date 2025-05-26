@@ -79,5 +79,7 @@ Data yang digunakan meliputi harga saham BMRI, Indeks Harga Saham Gabungan (IHSG
 ## Kontak
 
 Jika ada pertanyaan atau ingin berdiskusi, silakan hubungi:
+
 **Kurniawan Chandra Wijaya**
+
 Email: [kurniawanchandrawi@gmail.com](mailto:kurniawanchandrawi@gmail.com)
