@@ -296,8 +296,6 @@ Berdasarkan hasil evaluasi berbagai model deep learning untuk prediksi harga sah
 * **Implementasi Real-Time**
   Pengembangan sistem prediksi secara real-time dengan data streaming dapat diaplikasikan untuk mendukung pengambilan keputusan investasi secara cepat dan dinamis.
 
-  Baik! Berikut ini adalah contoh bagian **Daftar Pustaka** dengan format APA, sesuai referensi yang sudah kita gunakan di laporan:
-
 ## Daftar Pustaka
 
 * Bai, S., Kolter, J. Z., & Koltun, V. (2018). *An empirical evaluation of generic convolutional and recurrent networks for sequence modeling*. arXiv preprint arXiv:1803.01271. [https://arxiv.org/abs/1803.01271](https://arxiv.org/abs/1803.01271)
