@@ -1027,3 +1027,9 @@ Berdasarkan hasil evaluasi berbagai model deep learning untuk prediksi harga sah
 * Yahoo Finance. (2025). *Stock Data PT Bank Mandiri (Persero) Tbk (BMRI) and IHSG*. Diakses melalui library quantmod di R.
 
 * Zheng, Z. (2023). A Review of Stock Price Prediction Based on LSTM and TCN Methods. *Advances in Economics Management and Political Sciences*, 46(1), 48–54. [https://doi.org/10.54254/2754-1169/46/20230316](https://doi.org/10.54254/2754-1169/46/20230316)
+
+## Kontak
+
+Jika ada pertanyaan atau ingin berdiskusi, silakan hubungi:
+**Kurniawan Chandra Wijaya**
+Email: [kurniawanchandrawi@gmail.com](mailto:kurniawanchandrawi@gmail.com)
